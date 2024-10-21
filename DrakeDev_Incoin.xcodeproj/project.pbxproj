@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		11E39EAF2CC5E7690067156C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EAE2CC5E7690067156C /* MainView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		11E39E602CC5DE300067156C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		11E39E4E2CC5DE2C0067156C /* DrakeDev_Incoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrakeDev_Incoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E39E5F2CC5DE300067156C /* DrakeDev_IncoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakeDev_IncoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E39E692CC5DE300067156C /* DrakeDev_IncoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakeDev_IncoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E39EAE2CC5E7690067156C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		11E39E452CC5DE2C0067156C = {
 			isa = PBXGroup;
 			children = (
+				11E39EAE2CC5E7690067156C /* MainView.swift */,
 				11E39E502CC5DE2C0067156C /* DrakeDev_Incoin */,
 				11E39E622CC5DE300067156C /* DrakeDev_IncoinTests */,
 				11E39E6C2CC5DE300067156C /* DrakeDev_IncoinUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E39EAF2CC5E7690067156C /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
