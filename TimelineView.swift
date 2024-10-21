@@ -11,10 +11,10 @@ struct TimelineView: View {
         Event(title: "Christopher leaves home", date: Date().addingTimeInterval(-14400)),
         Event(title: "Astral seen near vault", date: Date().addingTimeInterval(-13440)),
         Event(title: "Christopher reaches the vault", date: Date().addingTimeInterval(-12540)),
-        Event(title: "12:00 PM - Theft Reported", date: Date().addingTimeInterval(-12240)),
-        Event(title: "12:05 PM - INCoin transactions traced to a location", date: Date().addingTimeInterval(-10920)),
-        Event(title: "12:15 PM - Security Footage Checked", date: Date().addingTimeInterval(-9900)),
-        Event(title: "12:30 PM - Laptop Found", date: Date().addingTimeInterval(-8400))
+        Event(title: "Theft Reported", date: Date().addingTimeInterval(-12240)),
+        Event(title: "INCoin transactions traced to a location", date: Date().addingTimeInterval(-10920)),
+        Event(title: "Security Footage Checked", date: Date().addingTimeInterval(-9900)),
+        Event(title: "Laptop Found", date: Date().addingTimeInterval(-8400))
     ]
     
     var body: some View {
