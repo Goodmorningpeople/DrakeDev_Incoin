@@ -14,6 +14,7 @@
 		11E39EB72CC600A00067156C /* AddSuspectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB62CC600A00067156C /* AddSuspectView.swift */; };
 		11E39EB92CC60B900067156C /* LocationTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB82CC60B900067156C /* LocationTrackerView.swift */; };
 		11E39EBB2CC613390067156C /* CluesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EBA2CC613390067156C /* CluesView.swift */; };
+		11E39EBD2CC613D60067156C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EBC2CC613D60067156C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		11E39EB62CC600A00067156C /* AddSuspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuspectView.swift; sourceTree = "<group>"; };
 		11E39EB82CC60B900067156C /* LocationTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerView.swift; sourceTree = "<group>"; };
 		11E39EBA2CC613390067156C /* CluesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluesView.swift; sourceTree = "<group>"; };
+		11E39EBC2CC613D60067156C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -92,6 +94,7 @@
 		11E39E452CC5DE2C0067156C = {
 			isa = PBXGroup;
 			children = (
+				11E39EBC2CC613D60067156C /* ContentView.swift */,
 				11E39EAE2CC5E7690067156C /* MainView.swift */,
 				11E39EB02CC5EEFB0067156C /* TimelineView.swift */,
 				11E39EBA2CC613390067156C /* CluesView.swift */,
@@ -264,6 +267,7 @@
 				11E39EBB2CC613390067156C /* CluesView.swift in Sources */,
 				11E39EB12CC5EEFB0067156C /* TimelineView.swift in Sources */,
 				11E39EB32CC5F67F0067156C /* SuspectListView.swift in Sources */,
+				11E39EBD2CC613D60067156C /* ContentView.swift in Sources */,
 				11E39EB92CC60B900067156C /* LocationTrackerView.swift in Sources */,
 				11E39EB72CC600A00067156C /* AddSuspectView.swift in Sources */,
 				11E39EAF2CC5E7690067156C /* MainView.swift in Sources */,
