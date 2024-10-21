@@ -10,6 +10,8 @@
 		11E39EAF2CC5E7690067156C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EAE2CC5E7690067156C /* MainView.swift */; };
 		11E39EB12CC5EEFB0067156C /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB02CC5EEFB0067156C /* TimelineView.swift */; };
 		11E39EB32CC5F67F0067156C /* SuspectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB22CC5F67F0067156C /* SuspectListView.swift */; };
+		11E39EB52CC600820067156C /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB42CC600820067156C /* AddEventView.swift */; };
+		11E39EB72CC600A00067156C /* AddSuspectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB62CC600A00067156C /* AddSuspectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		11E39EAE2CC5E7690067156C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		11E39EB02CC5EEFB0067156C /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		11E39EB22CC5F67F0067156C /* SuspectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspectListView.swift; sourceTree = "<group>"; };
+		11E39EB42CC600820067156C /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		11E39EB62CC600A00067156C /* AddSuspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuspectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -87,6 +91,8 @@
 				11E39EAE2CC5E7690067156C /* MainView.swift */,
 				11E39EB02CC5EEFB0067156C /* TimelineView.swift */,
 				11E39EB22CC5F67F0067156C /* SuspectListView.swift */,
+				11E39EB42CC600820067156C /* AddEventView.swift */,
+				11E39EB62CC600A00067156C /* AddSuspectView.swift */,
 				11E39E502CC5DE2C0067156C /* DrakeDev_Incoin */,
 				11E39E622CC5DE300067156C /* DrakeDev_IncoinTests */,
 				11E39E6C2CC5DE300067156C /* DrakeDev_IncoinUITests */,
@@ -248,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E39EB52CC600820067156C /* AddEventView.swift in Sources */,
 				11E39EB12CC5EEFB0067156C /* TimelineView.swift in Sources */,
 				11E39EB32CC5F67F0067156C /* SuspectListView.swift in Sources */,
+				11E39EB72CC600A00067156C /* AddSuspectView.swift in Sources */,
 				11E39EAF2CC5E7690067156C /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
