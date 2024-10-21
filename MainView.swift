@@ -23,6 +23,16 @@ struct MainView: View {
                         .cornerRadius(10)
                 }
                 .padding()
+                
+                NavigationLink(destination: LocationTrackerView()) {
+                    Text("Track Locations")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
             }
             .navigationTitle("Main Interface")
         }
