@@ -9,8 +9,12 @@ struct Suspect: Identifiable {
 
 struct SuspectListView: View {
     let suspects: [Suspect] = [
-        Suspect(name: "Suspect 1", age: 30, description: "Description 1"),
-        Suspect(name: "Suspect 2", age: 25, description: "Description 2")
+        Suspect(name: "Thiha", age: 30, description: "A notorious hacker with a knack for stealing digital currencies."),
+        Suspect(name: "Avyan", age: 25, description: "A tech-savvy individual who works closely with digital assets."),
+        Suspect(name: "Christopher", age: 28, description: "An experienced programmer who has faced financial trouble recently."),
+        Suspect(name: "Aldo", age: 24, description: "A young developer with a mysterious past."),
+        Suspect(name: "Astral", age: 29, description: "A skilled social engineer who manipulates situations to their advantage."),
+        Suspect(name: "Zachary", age: 32, description: "An ambitious entrepreneur who’s been under financial pressure.")
     ]
     
     var body: some View {

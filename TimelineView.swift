@@ -8,8 +8,13 @@ struct Event: Identifiable {
 
 struct TimelineView: View {
     let events: [Event] = [
-        Event(title: "Event 1", date: Date()),
-        Event(title: "Event 2", date: Date().addingTimeInterval(-86400))
+        Event(title: "Christopher leaves home", date: Date().addingTimeInterval(-14400)),
+        Event(title: "Astral seen near vault", date: Date().addingTimeInterval(-13440)),
+        Event(title: "Christopher reaches the vault", date: Date().addingTimeInterval(-12540)),
+        Event(title: "12:00 PM - Theft Reported", date: Date().addingTimeInterval(-12240)),
+        Event(title: "12:05 PM - INCoin transactions traced to a location", date: Date().addingTimeInterval(-10920)),
+        Event(title: "12:15 PM - Security Footage Checked", date: Date().addingTimeInterval(-9900)),
+        Event(title: "12:30 PM - Laptop Found", date: Date().addingTimeInterval(-8400))
     ]
     
     var body: some View {
@@ -17,7 +22,7 @@ struct TimelineView: View {
             VStack(alignment: .leading) {
                 Text(event.title)
                     .font(.headline)
-                Text(event.date, style: .date)
+                Text(event.date, style: .time)
                     .font(.subheadline)
             }
             .padding()
@@ -31,3 +36,4 @@ struct TimelineView_Previews: PreviewProvider {
         TimelineView()
     }
 }
+

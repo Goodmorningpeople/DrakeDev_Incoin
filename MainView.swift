@@ -43,8 +43,18 @@ struct MainView: View {
                         .cornerRadius(10)
                 }
                 .padding()
+                
+                NavigationLink(destination: SuspectSelectionView()) {
+                                Text("Select Suspect")
+                                    .font(.title2)
+                                    .padding()
+                                    .background(Color.orange)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+                            }
+                            .padding()
             }
-            .navigationTitle("Main Interface")
+            .navigationTitle("INCoin Heist App")
         }
     }
 }

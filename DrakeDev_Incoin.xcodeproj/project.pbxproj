@@ -15,6 +15,7 @@
 		11E39EB92CC60B900067156C /* LocationTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EB82CC60B900067156C /* LocationTrackerView.swift */; };
 		11E39EBB2CC613390067156C /* CluesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EBA2CC613390067156C /* CluesView.swift */; };
 		11E39EBD2CC613D60067156C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EBC2CC613D60067156C /* ContentView.swift */; };
+		11E39EBF2CC615340067156C /* SuspectSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E39EBE2CC615340067156C /* SuspectSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		11E39EB82CC60B900067156C /* LocationTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerView.swift; sourceTree = "<group>"; };
 		11E39EBA2CC613390067156C /* CluesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluesView.swift; sourceTree = "<group>"; };
 		11E39EBC2CC613D60067156C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11E39EBE2CC615340067156C /* SuspectSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspectSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -96,6 +98,7 @@
 			children = (
 				11E39EBC2CC613D60067156C /* ContentView.swift */,
 				11E39EAE2CC5E7690067156C /* MainView.swift */,
+				11E39EBE2CC615340067156C /* SuspectSelectionView.swift */,
 				11E39EB02CC5EEFB0067156C /* TimelineView.swift */,
 				11E39EBA2CC613390067156C /* CluesView.swift */,
 				11E39EB22CC5F67F0067156C /* SuspectListView.swift */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E39EB52CC600820067156C /* AddEventView.swift in Sources */,
+				11E39EBF2CC615340067156C /* SuspectSelectionView.swift in Sources */,
 				11E39EBB2CC613390067156C /* CluesView.swift in Sources */,
 				11E39EB12CC5EEFB0067156C /* TimelineView.swift in Sources */,
 				11E39EB32CC5F67F0067156C /* SuspectListView.swift in Sources */,
