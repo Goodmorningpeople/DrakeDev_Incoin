@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SuspectSelectionView: View {
-    let suspects = ["Thiha", "Avyan", "Christopher", "Aldo", "Astral", "Zachary"]
+    let suspects = ["Thiha", "Tall Avyan", "Christopher", "Aldo", "Astral", "Zachary"]
     @State private var selectedSuspect: String?
     @State private var message: String = ""
 

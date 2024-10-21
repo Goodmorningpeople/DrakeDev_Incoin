@@ -16,7 +16,7 @@ struct LocationTrackerView: View {
     let locations: [Location] = [
         Location(name: "INCoin Vault", coordinate: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)),
         Location(name: "Christopher's House", coordinate: CLLocationCoordinate2D(latitude: 37.7849, longitude: -122.4180)),  // Adjusted
-        Location(name: "Avyan's House", coordinate: CLLocationCoordinate2D(latitude: 37.7835, longitude: -122.4185)),  // Closer to vault
+        Location(name: "Tall Avyan's House", coordinate: CLLocationCoordinate2D(latitude: 37.7835, longitude: -122.4185)),  // Closer to vault
         Location(name: "INCoin Traced Location", coordinate: CLLocationCoordinate2D(latitude: 37.7840, longitude: -122.4182)),  // Close to both houses
         Location(name: "Thiha's House", coordinate: CLLocationCoordinate2D(latitude: 37.7740, longitude: -122.4284)),
         Location(name: "Aldo's House", coordinate: CLLocationCoordinate2D(latitude: 37.7810, longitude: -122.4184)),
