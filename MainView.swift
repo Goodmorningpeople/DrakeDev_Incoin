@@ -33,6 +33,16 @@ struct MainView: View {
                         .cornerRadius(10)
                 }
                 .padding()
+                
+                NavigationLink(destination: CluesView()) {
+                    Text("View Clues")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
             }
             .navigationTitle("Main Interface")
         }
@@ -44,3 +54,4 @@ struct MainView_Previews: PreviewProvider {
         MainView()
     }
 }
+
